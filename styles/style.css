@@ -76,7 +76,7 @@ ol {
 .button:focus {
   position: relative;
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 /* ~~~~~~~~~~~~~~~ content ~~~~~~~~~~~~~~~ */
@@ -97,9 +97,9 @@ ol {
   max-block-size: 298px;
   overflow-y: scroll;
   gap: 28px;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: 3px;
+  padding-inline: 3px;
+  padding-block-start: 1px;
+  padding-block-end: 3px;
 }
 
 .content__details {
@@ -212,11 +212,12 @@ ol {
   inline-size: 100%;
   cursor: pointer;
   align-items: center;
+  padding-inline: 1px;
 }
 
 .search-form__label:focus-within {
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  /* outline-offset: 1px; */
 }
 
 .search-form__label-text {
@@ -254,9 +255,9 @@ ol {
   outline: none;
 }
 
-.search-form__textfield:focus {
-  outline: 1px solid #fff;
-  outline-offset: 2px;
+.search-form__label:focus-within .search-form__textfield {
+  /* outline: 1px solid #fff; */
+  outline-offset: 1px;
 }
 
 .search-form__checkbox-list {

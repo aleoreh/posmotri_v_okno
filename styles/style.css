@@ -85,7 +85,6 @@ ol {
   display: flex;
   margin-inline-start: 30px;
   margin-inline-end: 30px;
-  align-items: end;
   gap: 28px;
   padding-block-start: 133px;
 }
@@ -168,6 +167,7 @@ ol {
 
 .result {
   position: relative;
+  align-self: end;
 }
 
 .result__video {
@@ -176,6 +176,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   inline-size: 711px;
   margin-block-end: 18px;
 }

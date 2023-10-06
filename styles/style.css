@@ -74,7 +74,10 @@ ol {
 }
 
 .button:focus {
-  position: relative;
+  outline: none;
+}
+
+.button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
@@ -122,6 +125,10 @@ ol {
 }
 
 .content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
 
@@ -218,7 +225,7 @@ ol {
 
 .search-form__label:focus-within {
   outline: 1px solid #fff;
-  /* outline-offset: 1px; */
+  outline-offset: 1px;
 }
 
 .search-form__label-text {

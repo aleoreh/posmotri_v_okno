@@ -106,21 +106,21 @@ ol {
   padding-inline: 3px;
   padding-block-start: 1px;
   padding-block-end: 3px;
-  margin-block-end: -4px;
+  margin-block-end: -10px;
 }
 
 .content__details {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .content__details::after {
   content: "";
   position: relative;
   display: block;
-  width: calc(100% + 0);
+  width: 100%;
   min-height: 3px;
   background: #1b1919;
   margin-block-start: 1px;

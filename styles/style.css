@@ -191,7 +191,6 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
-  align-self: end;
   justify-content: end;
   position: relative;
   min-block-size: 538px;
@@ -224,7 +223,6 @@ ol {
 
 .search-form__fieldset {
   border: none;
-  inline-size: 100%;
 }
 
 .search-form__fieldset-title {

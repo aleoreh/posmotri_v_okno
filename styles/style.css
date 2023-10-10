@@ -1,8 +1,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   outline: none;
+  box-sizing: border-box;
 }
 
 html {
@@ -11,15 +11,15 @@ html {
 
 .page {
   display: flex;
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: "Fira Sans Condensed", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
+  background-color: #1b1919;
+  font-family: "Fira Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -100,11 +100,11 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 2px;
   max-block-size: 304px;
   max-inline-size: 404px;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 2px;
 }
 
 .content__list-item {
@@ -117,9 +117,9 @@ ol {
 
 .content__details {
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 .content__card-link {
@@ -184,9 +184,9 @@ ol {
 
 .result {
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: end;
+  position: relative;
   min-block-size: 538px;
   gap: 10px;
   padding-block-end: 2px;
@@ -314,11 +314,11 @@ ol {
 }
 
 .title {
-  padding-block-start: 3px;
   font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 75px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-block-start: 3px;
   line-height: 94%;
 }
 

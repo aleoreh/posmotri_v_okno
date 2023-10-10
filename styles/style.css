@@ -111,18 +111,6 @@ ol {
   margin-block-end: 0;
 }
 
-/* hide some space so `.content__list-item` element is aligned with "find" button */
-
-.content__list-item::after {
-  display: block;
-  position: sticky;
-  content: "";
-  background-color: #1b1919;
-  inset-block-end: -4px;
-  min-block-size: 4px;
-  inline-size: 100%;
-}
-
 .content__details {
   display: flex;
   position: relative;

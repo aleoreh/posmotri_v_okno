@@ -43,6 +43,12 @@ ol {
   list-style: none;
 }
 
+/* overlap `.content__list-item::after` elements */
+
+.preloader {
+  z-index: 1;
+}
+
 /* ~~~~~~~~~~~~~~ utilities ~~~~~~~~~~~~~~ */
 
 .visually-hidden {

@@ -12,6 +12,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -19,7 +20,6 @@ html {
   font-family: "Fira Sans Condensed", Helvetica, Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -103,9 +103,9 @@ ol {
 
 .content__list {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
   max-block-size: 304px;
   overflow-y: scroll;
   gap: 25px;
@@ -115,9 +115,9 @@ ol {
 /* hide some space so `.content__list-item` element is aligned with "find" button */
 
 .content__list-item::after {
-  content: "";
   display: block;
   position: sticky;
+  content: "";
   background-color: #1b1919;
   inset-block-end: -4px;
   min-block-size: 4px;
@@ -126,9 +126,9 @@ ol {
 
 .content__details {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
 }
 
 .content__video-card {
@@ -195,9 +195,9 @@ ol {
 
 .result {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: end;
-  position: relative;
   min-block-size: 538px;
 }
 

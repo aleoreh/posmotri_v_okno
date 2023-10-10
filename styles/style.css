@@ -135,12 +135,13 @@ ol {
   color: #fff;
 }
 
-.content__card-link:active .content__video-card {
-  background-color: #545050;
-}
-
 .content__card-link:hover {
   text-decoration: underline;
+}
+
+.content__card-link_current .content__video-card,
+.content__card-link:active .content__video-card {
+  background-color: #545050;
 }
 
 .content__card-link:focus {

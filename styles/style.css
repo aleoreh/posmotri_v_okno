@@ -88,8 +88,7 @@ ol {
 
 .content {
   display: flex;
-  margin-inline-start: 30px;
-  margin-inline-end: 30px;
+  justify-content: center;
   gap: 28px;
 }
 

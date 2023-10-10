@@ -150,6 +150,7 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: space-between;
+  padding: 4px 2px;
 }
 
 .content__video-card-title {

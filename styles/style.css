@@ -98,6 +98,7 @@ ol {
   flex-direction: column;
   justify-content: space-between;
   max-block-size: 304px;
+  max-inline-size: 400px;
   overflow-y: scroll;
   gap: 25px;
   padding: 2px 2px 4px 2px;
@@ -187,17 +188,17 @@ ol {
   flex-direction: column;
   justify-content: end;
   min-block-size: 538px;
+  gap: 13px;
+}
+
+.result__video-container {
+  position: relative;
 }
 
 .result__video {
   inline-size: 711px;
   block-size: 386px;
   object-fit: cover;
-}
-
-.result__video-container {
-  position: relative;
-  inline-size: 711px;
 }
 
 .search-form {

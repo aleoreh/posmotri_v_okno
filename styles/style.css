@@ -108,8 +108,8 @@ ol {
   position: relative;
   max-block-size: 304px;
   overflow-y: scroll;
-  gap: 28px;
-  padding: 2px;
+  gap: 25px;
+  padding: 2px 2px 4px 2px;
 }
 
 /* hide some space so `.content__list-item` element is aligned with "find" button */
@@ -119,8 +119,8 @@ ol {
   display: block;
   position: sticky;
   background-color: #1b1919;
-  inset-block-end: -2px;
-  min-block-size: 2px;
+  inset-block-end: -4px;
+  min-block-size: 4px;
   inline-size: 100%;
 }
 
@@ -219,7 +219,7 @@ ol {
   align-items: start;
   justify-items: stretch;
   gap: 36px;
-  padding-block-end: 2px;
+  padding-block-end: 4px;
 }
 
 .search-form__submit-button {
@@ -335,6 +335,7 @@ ol {
 /* ~~~~~~~~~~~~~~~~ title ~~~~~~~~~~~~~~~~ */
 
 .title {
+  padding-block-start: 3px;
   font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 75px;
   font-weight: 700;

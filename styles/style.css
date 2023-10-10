@@ -1,5 +1,3 @@
-/* ~~~~~~~~~~~~~~~~ global ~~~~~~~~~~~~~~~ */
-
 *,
 *::before,
 *::after {
@@ -49,8 +47,6 @@ ol {
   z-index: 1;
 }
 
-/* ~~~~~~~~~~~~~~ utilities ~~~~~~~~~~~~~~ */
-
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -60,8 +56,6 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-
-/* ~~~~~~~~~~~~~~~~ common ~~~~~~~~~~~~~~~ */
 
 .button {
   padding: 5px;
@@ -91,8 +85,6 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
-
-/* ~~~~~~~~~~~~~~~ content ~~~~~~~~~~~~~~~ */
 
 .content {
   display: flex;
@@ -191,8 +183,6 @@ ol {
   line-height: 94%;
 }
 
-/* ~~~~~~~~~~~~~~~~ result ~~~~~~~~~~~~~~~ */
-
 .result {
   display: flex;
   position: relative;
@@ -210,8 +200,6 @@ ol {
   position: relative;
   inline-size: 711px;
 }
-
-/* ~~~~~~~~~~~~~ search-form ~~~~~~~~~~~~~ */
 
 .search-form {
   display: grid;
@@ -332,8 +320,6 @@ ol {
   background-color: #fff;
 }
 
-/* ~~~~~~~~~~~~~~~~ title ~~~~~~~~~~~~~~~~ */
-
 .title {
   padding-block-start: 3px;
   font-family: Oswald, Arial, Helvetica, sans-serif;
@@ -343,8 +329,7 @@ ol {
   line-height: 94%;
 }
 
-/* ~~~~~~~~~~~~~ more-button ~~~~~~~~~~~~~ */
-
 .more-button {
   inline-size: 100%;
 }
+

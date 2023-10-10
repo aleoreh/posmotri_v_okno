@@ -231,6 +231,15 @@ ol {
   padding-inline: 1px;
 }
 
+.search-form__label:focus-within {
+  outline: 1px solid currentColor;
+  outline-offset: 1px;
+}
+
+.search-form__label:focus-within:has(:focus-visible) {
+  outline: none;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid currentColor;
   outline-offset: 1px;
@@ -326,4 +335,3 @@ ol {
   inline-size: 100%;
   margin-block-start: 3px;
 }
-

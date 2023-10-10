@@ -98,9 +98,9 @@ ol {
   flex-direction: column;
   justify-content: space-between;
   max-block-size: 304px;
-  max-inline-size: 400px;
+  max-inline-size: 404px;
   overflow-y: scroll;
-  padding: 2px 2px 4px 2px;
+  padding: 2px;
 }
 
 .content__list-item {
@@ -185,6 +185,7 @@ ol {
   justify-content: end;
   min-block-size: 538px;
   gap: 10px;
+  padding-block-end: 2px;
 }
 
 .result__video-container {
@@ -203,7 +204,6 @@ ol {
   align-items: start;
   justify-items: stretch;
   gap: 36px;
-  padding-block-end: 2px;
 }
 
 .search-form__submit-button {
@@ -320,5 +320,6 @@ ol {
 
 .more-button {
   inline-size: 100%;
+  margin-block-start: 3px;
 }
 

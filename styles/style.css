@@ -127,7 +127,6 @@ ol {
 
 .content__video-card {
   display: flex;
-  align-items: start;
 }
 
 .content__card-link {
@@ -228,7 +227,7 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  margin-block-end: 5px;
+  padding-block-end: 5px;
 }
 
 .search-form__label {
@@ -263,7 +262,7 @@ ol {
 .search-form__label-text {
   font-size: 18px;
   font-weight: 400;
-  margin-inline-start: 5px;
+  padding-inline-start: 5px;
 }
 
 .search-form__textfield {

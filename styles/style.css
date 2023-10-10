@@ -123,10 +123,6 @@ ol {
   justify-content: space-between;
 }
 
-.content__video-card {
-  display: flex;
-}
-
 .content__card-link {
   display: block;
   text-decoration: none;
@@ -151,6 +147,11 @@ ol {
   outline-offset: -1px;
 }
 
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+}
+
 .content__video-card-title {
   font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -167,11 +168,9 @@ ol {
 
 .content__video-card-thumbnail {
   inline-size: 194px;
-  object-fit: contain;
-}
-
-.content__video-card-description-container {
-  inline-size: 100%;
+  block-size: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__accent {
@@ -192,8 +191,9 @@ ol {
 }
 
 .result__video {
-  width: 100%;
-  object-fit: contain;
+  inline-size: 711px;
+  block-size: 386px;
+  object-fit: cover;
 }
 
 .result__video-container {

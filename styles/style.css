@@ -86,16 +86,13 @@ ol {
   gap: 30px;
 }
 
-.content__list-wrapper {
-  position: relative;
-}
-
 .content__list {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
   padding: 2px;
-  max-block-size: 304px;
+  block-size: 298px;
   max-inline-size: 404px;
   overflow-y: auto;
   overflow-x: hidden;

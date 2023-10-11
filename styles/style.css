@@ -41,12 +41,6 @@ ol {
   list-style: none;
 }
 
-/* overlap `.content__list-item::after` elements */
-
-.preloader {
-  z-index: 1;
-}
-
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -222,6 +216,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   padding-block-end: 5px;
+  padding-inline-start: 2px;
 }
 
 .search-form__label {
@@ -327,8 +322,9 @@ ol {
   font-size: 75px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-block-start: 3px;
   line-height: 94%;
+  padding-block-start: 3px;
+  padding-inline-start: 1px;
 }
 
 .more-button {

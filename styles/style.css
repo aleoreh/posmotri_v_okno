@@ -83,7 +83,7 @@ ol {
 .content {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 28px;
 }
 
 .content__list {
@@ -91,15 +91,16 @@ ol {
   position: relative;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2px;
-  block-size: 298px;
+  padding: 0 2px 2px 2px;
+  block-size: 300px;
+  max-block-size: 304px;
   max-inline-size: 404px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 .content__list-item {
-  margin-block-end: 26px;
+  margin-block-end: 30px;
 }
 
 .content__list-item:last-child {
@@ -115,6 +116,7 @@ ol {
 
 .content__card-link {
   display: block;
+  padding: 2px;
   text-decoration: none;
   color: inherit;
 }
@@ -123,8 +125,8 @@ ol {
   text-decoration: underline;
 }
 
-.content__card-link_current .content__video-card,
-.content__card-link:active .content__video-card {
+.content__card-link_current,
+.content__card-link:active {
   background-color: #545050;
 }
 
@@ -140,21 +142,28 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  padding: 4px 2px;
+}
+
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .content__video-card-title {
+  margin: 0;
   font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 120%;
+  line-height: 110%;
 }
 
 .content__video-card-description {
   font-size: 18px;
   font-weight: 400;
   line-height: 90%;
+  max-inline-size: 200px;
 }
 
 .content__video-card-thumbnail {
@@ -320,11 +329,10 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 94%;
-  padding-block-start: 3px;
+  padding-block-start: 5px;
   padding-inline-start: 1px;
 }
 
 .more-button {
   inline-size: 100%;
-  margin-block-start: 3px;
 }

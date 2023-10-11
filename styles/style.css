@@ -212,6 +212,7 @@ ol {
 
 .search-form__submit-button {
   align-self: end;
+  margin-left: -1px;
 }
 
 .search-form__fieldset {

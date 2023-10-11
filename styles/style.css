@@ -236,11 +236,11 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:focus-within:has(:focus-visible) {
-  outline: none;
+.search-form__label:focus-within:has(input) {
+  outline: none; /* hide focus-within in Chrome */
 }
 
-.search-form__label:has(:focus-visible) {
+.search-form__fieldset .search-form__label:has(:focus-visible) {
   outline: 1px solid currentColor;
   outline-offset: 1px;
 }

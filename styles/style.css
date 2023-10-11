@@ -95,8 +95,7 @@ ol {
   block-size: 300px;
   max-block-size: 304px;
   max-inline-size: 404px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .content__list-item {

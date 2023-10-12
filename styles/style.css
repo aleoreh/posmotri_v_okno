@@ -180,7 +180,7 @@ ol {
   justify-content: end;
   position: relative;
   min-block-size: 538px;
-  gap: 10px;
+  gap: 11px;
   padding-block-end: 2px;
 }
 
@@ -317,7 +317,7 @@ ol {
   text-transform: uppercase;
   line-height: 94%;
   padding-block-start: 5px;
-  padding-inline-start: 1px;
+  padding-inline-start: 2px;
 }
 
 .more-button {

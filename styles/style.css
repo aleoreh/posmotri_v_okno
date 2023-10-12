@@ -88,22 +88,22 @@ ol {
 
 .content__details {
   display: flex;
+  flex-basis: 401px;
+  flex-shrink: 0;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  flex-shrink: 0;
-  flex-basis: 401px;
 }
 
 .content__list {
   display: grid;
+  align-content: start;
   position: relative;
   padding: 0 2px 2px 2px;
   block-size: 300px;
   overflow: auto;
   scrollbar-gutter: stable;
   gap: 30px;
-  align-content: start;
 }
 
 .content__card-link {
@@ -133,8 +133,8 @@ ol {
 
 .content__video-card {
   display: grid;
-  justify-content: space-between;
   grid-template-columns: auto auto;
+  justify-content: space-between;
 }
 
 .content__video-card-description-container {
@@ -304,10 +304,10 @@ ol {
 }
 
 .search-form__checkbox:checked ~ .search-form__pseudo-checkbox {
-  background-color: currentColor;
   border: 1px solid currentColor;
   outline: 1px solid #000;
   outline-offset: -2px;
+  background-color: currentColor;
 }
 
 .title {

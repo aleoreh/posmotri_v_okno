@@ -305,15 +305,9 @@ ol {
 
 .search-form__checkbox:checked ~ .search-form__pseudo-checkbox {
   background-color: currentColor;
-}
-
-.search-form__pseudo-checkbox:active,
-.search-form__label:active .search-form__pseudo-checkbox,
-.search-form__checkbox:active ~ .search-form__pseudo-checkbox {
   border: 1px solid currentColor;
   outline: 1px solid #000;
   outline-offset: -2px;
-  background-color: currentColor;
 }
 
 .title {

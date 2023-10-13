@@ -20,6 +20,7 @@ html {
   color: #fff;
   inline-size: 1200px;
   block-size: 100%;
+  align-items: center;
 }
 
 h1,
@@ -82,8 +83,8 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
-  gap: 28px;
+  inline-size: 1140px;
+  gap: 29px;
 }
 
 .content__details {
@@ -97,10 +98,10 @@ ol {
 
 .content__list {
   display: grid;
-  align-content: start;
+  align-content: space-between;
   position: relative;
   padding: 0 2px 2px 2px;
-  block-size: 300px;
+  block-size: 299px;
   overflow: auto;
   scrollbar-gutter: stable;
 }

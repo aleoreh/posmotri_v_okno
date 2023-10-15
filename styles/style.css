@@ -2,6 +2,7 @@
 *::before,
 *::after {
   outline: none;
+  /* outline: 1px dotted pink; */
   box-sizing: border-box;
 }
 
@@ -90,16 +91,16 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 22px;
   position: relative;
 }
 
 .content__list {
-  display: grid;
-  align-content: space-between;
+  display: flex;
+  flex-direction: column;
   position: relative;
   padding: 0 2px 2px 2px;
-  block-size: 299px;
+  block-size: 300px;
   overflow: auto;
   scrollbar-gutter: stable;
   min-inline-size: 403px;

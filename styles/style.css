@@ -2,7 +2,6 @@
 *::before,
 *::after {
   outline: none;
-  /* outline: 1px dotted pink; */
   box-sizing: border-box;
 }
 
@@ -91,7 +90,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 21px;
   position: relative;
 }
 
@@ -323,8 +322,7 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 94%;
-  padding-block-start: 5px;
-  padding-inline-start: 2px;
+  padding-block-start: 8px;
 }
 
 .more-button {

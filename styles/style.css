@@ -84,13 +84,11 @@ ol {
 .content {
   display: flex;
   inline-size: 1140px;
-  gap: 29px;
+  gap: 26px;
 }
 
 .content__details {
   display: flex;
-  flex-basis: 401px;
-  flex-shrink: 0;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
@@ -104,6 +102,7 @@ ol {
   block-size: 299px;
   overflow: auto;
   scrollbar-gutter: stable;
+  min-inline-size: 403px;
 }
 
 .content__list-item {
@@ -140,8 +139,7 @@ ol {
 }
 
 .content__video-card {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -149,6 +147,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  /* inline-size: 200px; */
 }
 
 .content__video-card-title {

@@ -12,6 +12,7 @@ html {
 .page {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: auto;
   background-color: #1b1919;
@@ -20,7 +21,6 @@ html {
   color: #fff;
   inline-size: 1200px;
   block-size: 100%;
-  align-items: center;
 }
 
 h1,
@@ -84,7 +84,7 @@ ol {
 .content {
   display: flex;
   inline-size: 1140px;
-  gap: 26px;
+  gap: 28px;
 }
 
 .content__details {
@@ -115,7 +115,6 @@ ol {
 
 .content__card-link {
   display: block;
-  padding: 2px;
   text-decoration: none;
   color: inherit;
 }
@@ -140,14 +139,14 @@ ol {
 
 .content__video-card {
   display: flex;
-  justify-content: space-between;
+  padding: 2px;
 }
 
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  /* inline-size: 200px; */
+  inline-size: 200px;
 }
 
 .content__video-card-title {
@@ -169,7 +168,7 @@ ol {
   block-size: 103px;
   object-fit: cover;
   object-position: center;
-  inline-size: 193px;
+  inline-size: 194px;
 }
 
 .content__accent {

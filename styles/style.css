@@ -309,10 +309,17 @@ ol {
   margin-inline-end: 1px;
 }
 
-.search-form__checkbox:checked ~ .search-form__pseudo-checkbox {
+.search-form__pseudo-checkbox::after {
+  content: "";
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.search-form__checkbox:checked ~ .search-form__pseudo-checkbox::after {
   border: 1px solid currentColor;
   outline: 1px solid #000;
-  outline-offset: -2px;
+  outline-offset: -1px;
   background-color: currentColor;
 }
 
@@ -328,3 +335,4 @@ ol {
 .more-button {
   inline-size: 100%;
 }
+
